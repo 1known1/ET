@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script 
+src=”https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jq uery.min.js”> 
+</script> 
+<script> 
+$(document).ready(function(){ 
+$(“button”).click(function(){ 
+$(“#div1”).fadeToggle(); 
+$(“#div2”).fadeToggle(“slow”); 
+$(“#div3”).fadeToggle(3000); 
+}); 
+}); 
+</script> 
+</head> 
+<p>Demonstrate fadeToggle() with different parameters.</p> 
+<button>Click to fade in/out 
+boxes</button><br><br> 
+<div id=”div1” 
+style=”width:80px;height:80px;background-color:re d;”></div><br>
+<div id=”div1” 
+style=”width:80px;height:80px;background-color:gr een;”></div><br> 
+<div id=”div1” 
+style=”width:80px;height:80px;background-color:bl ue;”></div> 
+</body> 
+</html> 
